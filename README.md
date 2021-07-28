@@ -25,7 +25,7 @@
 * For Lot 1 and Lot 2, the PSI values are not statistically different from the population because the p-values are above 0.05 and have the sample means (1500 and 1499.423) are very close to the population mean. This indicates that there is not enough evidence to regect the null hypothesis. For Lot 3 the p-value is 0.04168 and the sample mean is 1496.14, so there is evidence that the suspension coil data is statistically different from the overall population data and the null hypothesis can be rejected. All t-tests can be seen below:
 
 ### Across all lots:
-Suspension Coils Cumulative T-test
+
 ![Suspension Coils Cumulative T-test](https://github.com/ClayMack/MechaCar_Statistical_Analysis/blob/main/Suspension%20Coil%20Cum%20T%20Test.png)
 
 ### Lot 1 T-Test:
