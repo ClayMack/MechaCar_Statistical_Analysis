@@ -18,3 +18,10 @@ lot_summary <- suspension_coil_data  %>% group_by(Manufacturing_Lot) %>% summari
                                                                                         Var_PSI=var(PSI),
                                                                                         Std_Dev_PSI=sd(PSI),
                                                                                         Num_Coil=n(), .groups = 'keep') 
+
+
+t.test(suspension_coil_data$PSI, mu=1500)
+
+t.test(subset(suspension_coil_data,Manufacturing_Lot=="Lot1")$PSI, mu = 1500)
+t.test(subset(suspension_coil_data,Manufacturing_Lot=="Lot2")$PSI, mu = 1500)
+t.test(subset(suspension_coil_data,Manufacturing_Lot=="Lot3")$PSI, mu = 1500)
