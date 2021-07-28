@@ -10,7 +10,7 @@
 
 * The R-squared value is 0.7149, which means that the model is roughly ~72% accurate at predicting MPG values. 
 
-### Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
 
 ![Suspension Coil Total Summary](https://github.com/ClayMack/MechaCar_Statistical_Analysis/blob/main/Total%20Summary.png)
